@@ -4,10 +4,10 @@ This web application generates random passwords using HTML, CSS, and JavaScript.
 
 ## Features
 
-- Generates random passwords with length and character sets.
+- Generates random passwords with length and character .
 - Responsive design, ensuring usability on various screen sizes.
 - Simple and intuitive user interface.
--
+- You can copy the password
 
 ## Usage
 
