@@ -4,6 +4,7 @@ let upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let lowerCase = "abcdefghijklmnopqrstuvwxyz";
 let number = "1234567890";
 let charechter = "!@#$%^&*()_+{}|[]-=";
+let copyimage = document.getElementById("copyPassword");
 const generatedPassword = upperCase + lowerCase + number + charechter;
 
 function generate() {
@@ -19,3 +20,8 @@ function generate() {
   }
   passwordBox.value = passwordinput;
 }
+copyimage.addEventListener("click", () => {
+  let copyPassword = passwordBox.value;
+  navigator.clipboard.writeText(`${copyPassword}`);
+  alert(`password ${copyPassword}has been copied to clipboard!`);
+});

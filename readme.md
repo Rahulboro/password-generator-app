@@ -18,6 +18,7 @@ This web application generates random passwords using HTML, CSS, and JavaScript.
 ## Screenshots
 
 ![Screenshot](./Screenshot%202024-05-11%20at%2019.25.59.jpg)
+![Screenshot](./Screenshot%202024-05-11%20at%2019.54.13.jpg)
 
 ## Technologies Used
 
